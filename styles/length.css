@@ -48,8 +48,53 @@ select,input{
     margin: 0 10px;
 }
 
-@media (max-width: 1171px) {
+@media (max-width: 869px) {
+    h1{
+        font-size: 20px;
+        padding-left: 10px;
+    }
     select,input{
-        width: 100%;
+        height: 30px;
+        font-size: 14px;
+        margin: 7.5px 0;
+    }
+    select{
+        width: 50%;
+    }
+    input{
+        width: 90%;
+    }
+    .from,.to{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .from-to{
+        justify-content: left;
+    }
+}
+
+@media (max-width:570px){
+    select{
+        width: 100px;
+    }
+    .contents{
+        padding: 20px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 260px){
+    h1{
+        padding: 0;
+    }
+    .contents{
+        width: 60%;
+    }
+    .from,.to{
+        padding: 0px;
+        font-size: 12px;
+    }
+    input{
+        width: 80%;
     }
 }
