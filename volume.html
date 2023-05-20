@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume</title>
+    <link rel="stylesheet" href="styles/length.css">
+</head>
+
+<body>
+    <div class="central">
+        <div class="contents">
+            <h1>Volume Converter</h1>
+            <form>
+                <div class="from">
+                    <div class="from-to">
+                        <label for="fromUnit">From: </label>
+                    </div>
+                    <select class="" id="fromUnit">
+                        <option selected value="cubicmillimeter">Cubic Millimeter</option>
+                        <option value="cubiccentimeter">Cubic Centimeter</option>
+                        <option value="cubicmeter">Cubic Meter</option>
+                        <option value="cubickilometer">Cubic Kilometer</option>
+                        <option value="liter">Liter (l)</option>
+                        <option value="milliliter">Milliliter (ml)</option>
+                        <option value="usgallon">US Gallon</option>
+                        <option value="usfluidounce">US Fluid Ounce</option>
+                    </select>
+                    <input type="number" placeholder="Input Length" id="input">
+                </div>
+                <hr>
+                <div class="to">
+                    <div class="from-to">
+                        <label for="toUnit">To: </label>
+                    </div>
+                    <select class="" id="toUnit">
+                        <option selected value="cubicmillimeter">Cubic Millimeter</option>
+                        <option value="cubiccentimeter">Cubic Centimeter</option>
+                        <option value="cubicmeter">Cubic Meter</option>
+                        <option value="cubickilometer">Cubic Kilometer</option>
+                        <option value="liter">Liter (l)</option>
+                        <option value="milliliter">Milliliter (ml)</option>
+                        <option value="usgallon">US Gallon</option>
+                        <option value="usfluidounce">US Fluid Ounce</option>
+                    </select>
+                    <input type="number" placeholder="Output" id="output" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script/volume.js"></script>
+</body>
+
+</html>

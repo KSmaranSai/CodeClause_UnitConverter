@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight</title>
+    <link rel="stylesheet" href="styles/length.css">
+</head>
+
+<body>
+    <div class="central">
+        <div class="contents">
+            <h1>Weight Converter</h1>
+            <form>
+                <div class="from">
+                    <div class="from-to">
+                        <label for="fromUnit">From: </label>
+                    </div>
+                    <select class="" id="fromUnit">
+                        <option selected value="milligram">Milligram</option>
+                        <option value="gram">Gram</option>
+                        <option value="kilogram">Kilogram</option>
+                        <option value="metricton">Metric Ton</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                    </select>
+                    <input type="number" placeholder="Input Length" id="input">
+                </div>
+                <hr>
+                <div class="to">
+                    <div class="from-to">
+                        <label for="toUnit">To: </label>
+                    </div>
+                    <select class="" id="toUnit">
+                        <option selected value="milligram">Milligram</option>
+                        <option value="gram">Gram</option>
+                        <option value="kilogram">Kilogram</option>
+                        <option value="metricton">Metric Ton</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                    </select>
+                    <input type="number" placeholder="Output" id="output" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script/weight.js"></script>
+</body>
+
+</html>
