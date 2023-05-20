@@ -34,7 +34,7 @@ h1{
 }
 
 .from-to{
-    width: 90px;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@ select,input{
     font-size: 16px;
     padding: 0 10px;
     margin: 0 10px;
+    width: 100%;
 }
 
 @media (max-width: 869px) {
