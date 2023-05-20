@@ -85,4 +85,7 @@ h1{
     .list-item{
         font-size: xx-small;
     }
+    .list-item:hover{
+        font-size: 9.5px;
+    }
 }
